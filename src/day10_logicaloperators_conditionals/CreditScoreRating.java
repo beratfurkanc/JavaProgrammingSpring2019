@@ -22,9 +22,6 @@ public class CreditScoreRating {
 			System.out.println("Bad");
 		}else {
 			System.out.println("Invalid score");
-		}
-		
-		
-		
+		}	
 	}
 }
