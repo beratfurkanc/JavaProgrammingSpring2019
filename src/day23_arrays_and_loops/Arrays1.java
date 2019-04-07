@@ -1,4 +1,4 @@
-package days23_arrays_and_loops;
+package day23_arrays_and_loops;
 
 public class Arrays1 {
 	public static void main(String[] args) {
@@ -29,7 +29,7 @@ public class Arrays1 {
 
 		String[] names = new String[5];
 		// size = to number of items
-		String[] names2 = { "Shaun", "Roman", "Vlad", "Burak", "MARIA" };
+		String[] names2 = { "Shaun", "Roman", "Vlad", "Burak", "James" };
 
 		System.out.println(names2[4]);
 		System.out.println("Number of items: " + names2.length);
@@ -46,6 +46,11 @@ public class Arrays1 {
 		for (String fruit : fruits) {
 			System.out.println(fruit);
 		}
+		
+		String[] contries;
+		contries = new String[5];
+		countries[0] = "USA";
+		
 
 	}
 }

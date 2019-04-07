@@ -1,4 +1,4 @@
-package days23_arrays_and_loops;
+package day23_arrays_and_loops;
 
 public class CheckNumber {
 	public static void main(String[] args) {

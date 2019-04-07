@@ -1,4 +1,4 @@
-package days23_arrays_and_loops;
+package day23_arrays_and_loops;
 
 import java.util.Scanner;
 
