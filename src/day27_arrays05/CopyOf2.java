@@ -1,9 +1,11 @@
 package day27_arrays05;
 
+import java.time.LocalDateTime;
 import java.util.Arrays;
+import java.util.concurrent.TimeUnit;
 
 public class CopyOf2 {
-	public static void main(String[] args) {
+	public static void main(String[] args) {		
 		//copy all the values from array and 
 		//also add 2 more spaces
 		int[] nums1 = {34, 56, 23, 1, 55};
@@ -20,8 +22,6 @@ public class CopyOf2 {
 		
 		brandNew = Arrays.copyOf(brandNew, brandNew.length + 5);
 		
-		System.out.println("Length after:" + brandNew.length);
-
-		
+		System.out.println("Length after:" + brandNew.length);		
 	}
 }
